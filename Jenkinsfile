@@ -21,7 +21,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/2300033329TAMMINENIVINEESHA/frontend-app.git', branch: 'master'
+                git url: 'https://github.com/2300033329TAMMINENIVINEESHA/frontend-app.git', branch: 'main'
             }
         }
 
